@@ -1,8 +1,8 @@
 name: Zusammenbau
 on: 
-  push:
-    branches: [main]
-  pull_request: [main]
+ push:
+  branches: [main]
+ pull_request: [main]
 
 jobs:
  build_Linux:
