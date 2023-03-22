@@ -2,11 +2,12 @@ name: Zusammenbau
 on: 
  push:
   branches: [main]
- pull_request: [main]
+ pull_request: 
+  branches: [main]
 
 jobs:
  build_Linux:
-  runs_on: ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v3
 
