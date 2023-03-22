@@ -8,7 +8,7 @@ jobs:
  build_Linux:
   runs_on: ubuntu-latest
   steps:
-   uses: actions/checkout@v3
+  - uses: actions/checkout@v3
 
   - name: Zusammenmachung Solver 
     run: cmake ${github.workspace}/solver_application/ -B ${github.workspace}/solver_application/build
